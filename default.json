@@ -1,0 +1,33 @@
+{
+  dependencyDashboard: true,
+  assignees: ["@plcnk"],
+  reviewers: ["@plcnk"],
+
+  // https://docs.renovatebot.com/key-concepts/scheduling/
+  schedule: [
+    "before 8am every weekday",
+    "after 5pm every weekday",
+    "every weekend"
+  ],
+
+  extends: [
+    "config:base",
+
+    // https://docs.renovatebot.com/presets-default/
+    ":timezone(Europe/Paris)",
+    ":prHourlyLimitNone",
+    ":prConcurrentLimitNone",
+
+    // https://github.com/aquaproj/aqua-renovate-config
+    "github>aquaproj/aqua-renovate-config#2.3.1",
+  ],
+
+  // Automerge
+  platformAutomerge: true,
+  packageRules: [
+    {
+      matchUpdateTypes: ["patch", "pin", "digest"],
+      automerge: true,
+    },
+  ],
+}
