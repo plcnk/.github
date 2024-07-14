@@ -1,5 +1,5 @@
 {
-  dependencyDashboard: false,
+  dependencyDashboard: true,
   assignees: ["@plcnk"],
   reviewers: ["@plcnk"],
 
