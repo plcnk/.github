@@ -1,6 +1,9 @@
 {
   dependencyDashboard: true,
   dependencyDashboardAutoclose: true,
+  major: {
+    dependencyDashboardApproval: true
+  },
   assignees: ["@plcnk"],
   reviewers: ["@plcnk"],
 
