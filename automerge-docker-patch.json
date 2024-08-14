@@ -5,7 +5,7 @@
         "matchDatasources": ["docker"],
         "automerge": true,
         "automergeType": "branch",
-        "matchUpdateTypes": ["digest"],
+        "matchUpdateTypes": ["patch"],
         "ignoreTests": true
       }
     ]

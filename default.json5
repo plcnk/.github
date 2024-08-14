@@ -26,7 +26,7 @@
     // https://github.com/aquaproj/aqua-renovate-config
     "github>aquaproj/aqua-renovate-config#2.3.1",
     "github>plcnk/.github:pr-labels",
-    "github>plcnk/.github:automerge-docker-digest",
+    "github>plcnk/.github:automerge-docker-patch",
     "github>plcnk/.github:automerge-github-actions"
   ]
 }
