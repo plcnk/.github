@@ -1,4 +1,5 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   dependencyDashboard: true,
   dependencyDashboardAutoclose: true,
   major: {
@@ -24,5 +25,8 @@
 
     // https://github.com/aquaproj/aqua-renovate-config
     "github>aquaproj/aqua-renovate-config#2.3.1",
-  ],
+    "github>plcnk/.github:pr-labels",
+    "github>plcnk/.github:automerge-docker-digest",
+    "github>plcnk/.github:automerge-github-actions"
+  ]
 }
